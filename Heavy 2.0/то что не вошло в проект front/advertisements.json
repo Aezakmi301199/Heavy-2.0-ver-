@@ -1,0 +1,147 @@
+{
+    "advertisements":[
+        {"author":"Евгений","city":"Тюмень","cart":[],
+            "product":{
+                "showproduct":true,
+                "filterTag":"Sewagecollectors",
+                "id":1,
+                "nameitem":"Ассенизатор ЗИЛ-130 ",
+                "description":"Выкачивает до 10 л.в минуту",
+                "tanksize":10,
+                "price":2000,
+                "image":"asseniz.png",
+                "countInventory":1
+                }
+       },
+       {"author":"Олег","city":"Тюмень","cart":[],
+        "product":{
+            "showproduct":true,
+            "filterTag":"Sewagecollectors",
+            "id":2,
+            "nameitem":"Ассенизатор ЗИЛ-130 ",
+            "description":"Выкачивает до 10 л.в минуту",
+            "price":2000,
+            "image":"asseniz.png",
+            "countInventory":1
+            }
+   },
+    {"author":"Дима","city":"Тюмень","cart":[],
+    "product":{
+        "showproduct":true,
+        "filterTag":"Bulldozers",
+        "id":3,
+        "nameitem":"Бульдозер MENG SS-002",
+        "description":"Разнесёт стадик",
+        "tanksize":10,
+        "price":2200,
+        "image":"buld.jpg",
+        "countInventory":1
+             }
+    },         
+    {"author":"Сергей","city":"Тюмень","cart":[],
+        "product":{
+            "showproduct":true,
+            "filterTag":"Bulldozers",
+            "id":4,
+            "nameitem":"Бульдозер MENG SS-333",
+            "description":"Разнесёт стадик авп",
+            "tanksize":10,
+            "price":3000,
+            "image":"buld.jpg",
+            "countInventory":1
+                 }
+        },
+        {"author":"Анатолийр","city":"Тюмень","cart":[],
+            "product":{
+                "showproduct":true,
+                "filterTag":"Bulldozers",
+                "id":5,
+                "nameitem":"Бульдозер MENG SS-333",
+                "description":"Разнесёт стадик авп",
+                "tanksize":10,
+                "price":3000,
+                "image":"buld.jpg",
+                "countInventory":1
+                     }
+            },
+            {"author":"Анатолийр","city":"Тюмень","cart":[],
+                "product":{
+                    "showproduct":true,
+                    "filterTag":"Bulldozers",
+                    "id":6,
+                    "nameitem":"Бульдозер MENG SS-333",
+                    "description":"Разнесёт стадик авп",
+                    "tanksize":10,
+                    "price":3000,
+                    "image":"buld.jpg",
+                    "countInventory":1
+                         }
+                },
+                {"author":"Анатолийр","city":"Тюмень","cart":[],
+                    "product":{
+                        "showproduct":true,
+                        "filterTag":"Bulldozers",
+                        "id":7,
+                        "nameitem":"Бульдозер MENG SS-333",
+                        "description":"Разнесёт стадик авп",
+                        "tanksize":10,
+                        "price":3000,
+                        "image":"buld.jpg",
+                        "countInventory":1
+                             }
+                    },
+                    {"author":"Было лучше","city":"Тюмень","cart":[],
+                        "product":{
+                            "showproduct":true,
+                            "filterTag":"Bulldozers",
+                            "id":8,
+                            "nameitem":"Бульдозер MENG SS-333",
+                            "description":"Разнесёт стадик авп",
+                            "tanksize":10,
+                            "price":3000,
+                            "image":"buld.jpg",
+                            "countInventory":1
+                                 }
+                        },
+                        {"author":"Было fsafafa","city":"Тюмень","cart":[],
+                            "product":{
+                                "showproduct":true,
+                                "filterTag":"Bulldozers",
+                                "id":8,
+                                "nameitem":"Бульдозер MENG SS-333",
+                                "description":"Разнесёт стадик авп",
+                                "tanksize":10,
+                                "price":3000,
+                                "image":"buld.jpg",
+                                "countInventory":1
+                                     }
+                            },{"author":"Было лучше","city":"Тюмень","cart":[],
+                                "product":{
+                                    "showproduct":true,
+                                    "filterTag":"Bulldozers",
+                                    "id":8,
+                                    "nameitem":"Бульдозер MENG SS-333",
+                                    "description":"Разнесёт стадик авп",
+                                    "tanksize":10,
+                                    "price":3000,
+                                    "image":"buld.jpg",
+                                    "countInventory":1
+                                         }
+                                },
+                            {"author":"Было fasfgsdgs","city":"Тюмень","cart":[],
+                                "product":{
+                                    "showproduct":true,
+                                    "filterTag":"Bulldozers",
+                                    "id":8,
+                                    "nameitem":"Бульдозер MENG SS-333",
+                                    "description":"Разнесёт стадик авп",
+                                    "tanksize":10,
+                                    "price":3000,
+                                    "image":"buld.jpg",
+                                    "countInventory":1
+                                         }
+                                }
+                    
+
+                     ]
+}

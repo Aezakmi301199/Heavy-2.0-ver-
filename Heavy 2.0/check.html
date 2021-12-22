@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   *{
+    padding: 0;
+    margin: 0;
+   }
+   .container{
+       width: 600px;
+       margin: 0 auto;
+   }
+   .slider_button{
+       text-align: center;
+   }
+   .slider_cont{
+       overflow: hidden;
+       background-color: pink;
+   }
+   .slider_track{
+       background-color: yellow;
+       display: flex;
+       transition: 0.2s;
+   }
+   .slider-item{
+       height: 100px;
+   }
+   .slider-item:nth-child(3n+1){
+       background-color: red;
+   }
+   .slider-item:nth-child(3n+2){
+       background-color: green;
+   }
+   .slider-item:nth-child(3n+3){
+       background-color: brown;
+   }
+</style>
+<body>
+<div class="container">
+    <div class="slider_cont">
+           <div class="slider_track">
+               <div class="slider-item"></div>
+               <div class="slider-item"></div>
+               <div class="slider-item"></div>
+               <div class="slider-item"></div>
+               <div class="slider-item"></div>
+           </div>
+    </div>
+    <div class="slider_button">
+        <button class="slider_button-left">prev</button>
+        <button class="slider_button-right">next</button>
+    </div>
+</div>
+    <script src='./slider.js'></script>
+</body>
+</html>

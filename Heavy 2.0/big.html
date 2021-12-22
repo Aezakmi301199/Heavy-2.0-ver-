@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='normalize.css'>
+	<link rel='stylesheet' href='fonts.css'>
+	<link rel='stylesheet' href='style.css'>
+	<link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
+    <title>Document</title>
+</head>
+<body class='page' >
+    <header>
+		<div class='wrapper'>
+			<div class='bg-black'>
+				<div class='header'>
+					<div class='logo'>
+						<figure class='logo-img'></figure>
+							<a class='logo-title' href='index.html'>Тяжеловесы</a>
+						</div>
+						<ul class='nav'>
+							<li><a href='index.html'>Главная</a></li>
+							<li><a href='category.html'>Объявления</a></li>
+							<li><a href='contact.html'>Контакты</a></li>
+							<li><a href='#'>Избранное</a></li>
+						</ul>
+						<div class='flex-490res'>
+							<div class='header-right'>
+							<a class='header-btn reg-link'>Регистрация</a>
+							<a class='header-btn login-link'>Вход</a>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class='searchZ'>
+		<div class='wrapper' >
+			<div class='search-info'>
+				<input class='input-search' type='search' name='text-search' placeholder='Например,автокран'></input>
+		<a href='#' class='search-btn bg-blue'>
+			<img src='./img/search.svg' id='pic-search-btn'></img>
+		</a>
+			</div>
+		</div>
+		</section>
+    <div class="wrapper">
+        <div class="big_container">
+            <div class="row1">
+                <div class="left_dash">
+                    <div class='_cont-card-item_price'>
+                        <h3 class='upperCase span-upper'>2500р</h3>
+                    </div>
+                    <h3>Ассенизатор ЗИЛ-130</h3>
+                    <button class='love_item'><img src='./img/love_item.svg'></button>
+                </div>
+                <div class="right_dash">
+                    <div class='_cont-card-item_user-info width-auto'>
+                        <a href='contact.html'>
+                            <div class='_cont-card-item_user-info_img'><img src='./img/card-item-user-photo.png'>
+                            </div>
+                        </a>
+                        
+                        <div class='cont-card-item_user-info-author width-auto'>
+                            <a href='#'><h3>Павел Рокосовский</h3></a>
+                            <div class='_cont-card-item_user-info_rating'> 
+                                <h4>4.79/5</h4>
+                                <div class='_cont-card-item_user-info_img'><img src='./img/author-star.svg'></div>
+                            </div>
+                        </div> 
+                        </div>
+                </div>
+            </div>
+            <div class="slider_cont__big single-item">
+                <div class='_cont-itemphoto'><img  src='./img/samosv.jpg'></div>
+                <div class='_cont-itemphoto '><img  src='./img/ex.jpg'></div>
+                <div class='_cont-itemphoto '><img  src='./img/track.jpg'></div>
+                <div class='_cont-itemphoto '><img  src='./img/water.jpg'></div>
+                <div class='_cont-itemphoto '><img  src='./img/gruz.jpg'></div>
+            </div>
+			<div class='card-item-description_story change_cont'> 
+				Предлагаем услуги по вывозу жидких бытовых отходов.Работаем с 8-20ч без выходных.В зимнее время года выезд техники до -40.Большой опыт работы в этой сфере деятельности,ответственное отношение к каждому клиенту.Приемлемые цены от1700,Автомобили все 10куб.м.на базе КаМаЗ.цены по всем районам разные!!!уточняйте,1700 это минимальная цена.
+			</div> 
+			<div class='card-item_user-geoOnlineTime'>
+					<div class='card-item_user-geoOnlineTime'>
+					<h5>Тюмень,р-н Калининский,кв 185,район пушкина</h5>
+					<h5>Был в сети: Вчера 23:50</h5>
+					</div>
+				</div>
+        </div>
+    </div>
+    <section class='login'>
+		<div class='wrapper'>
+			<form action='#' method="get" class='form-center modal-login'>
+				<fieldset>
+					<legend><h2 class='text-title-OpenSans'>Авторизация</h2></legend>
+					<div class='input_form'>
+						<label for='user-name'><h2>Логин</h2></label>
+						<input required type='text' id='user-name'  name='login' placeholder='admimadminov' >
+					</div>
+					<div class='input_form'>
+						<label for='user-password'><h2>Пароль</h2></label>
+						<input required type='password' autocomplete =off id='user-password' name='password' placeholder='********' >
+					</div>
+					<div class='btn-joib'>
+						<input type='submit' value='Войти'>
+					</div>
+					<div>
+						<label class='login-checkbox'>
+							<input type='checkbox' name='remember' class='visually-hidden'>
+							<span class='checkbox-indicator'>Запомните меня</span>
+						</label>
+					</div>
+					<div class='input_form'>
+						<a  href='#' class='forget'>Забыли пароль?</a>
+					</div>
+				</fieldset>
+				<button class='modal-close' type='button'></button>
+			</form>
+		</div>
+	</section>
+	<section class='reg'>
+		<div class='wrapper'>
+			<form action='#' method="get" class='form-center modal-reg'>
+				<legend><h2 class='text-title-OpenSans'>Регистрация</h2></legend>
+					<fieldset>
+						<div class='input_form'>
+							<label for='user-name-reg'><h2>Логин</h2></label>
+							<input required type='text' id='user-name-reg' placeholder='admimadminov' >
+						</div>
+						<div class='input_form'>
+							<label for='user-password-reg'><h2>Пароль</h2></label>
+							<input required type='password' id='user-password-reg' autocomplete =off placeholder='********' >
+						</div>
+						<div class='input_form'>
+							<label for='user-password2'><h2>Повторите пароль</h2></label>
+							<input required type='password' id='user-password2' autocomplete =off placeholder='********' >
+						</div>
+						<div class='input_form'>
+							<label for='user-tel'><h2>Номер телефона</h2></label>
+							<input required type='tel' id='user-tel' placeholder='8800553535' >
+						</div>
+					</fieldset>
+					<fieldset>
+						<div class='input_form'>
+							<label for='user-fio'><h2>Фио</h2></label>
+							<input required type='text' id='user-fio' placeholder='Антон Павлович Чехов' >
+						</div>
+						<div class='input_form'>
+							<label for='user-email'><h2>Почта</h2></label>
+							<input required type='email' id='user-email' placeholder='NovoStack@gmail.com' >
+						</div>
+						<div class='input_form'>
+							<label for='user-city'><h2>Город</h2></label>
+							<input required type='text' id='user-city' placeholder='Тюмень' >
+						</div>
+						<div class='input_form'>
+							<label for='user-Address'><h2>Адрес</h2></label>
+							<input required type='text' id='user-Address' placeholder='Ул Левая 8' >
+						</div>
+					</fieldset>
+					<div class='flex-center'>
+						<div class='btn-joib'>
+							<input type='submit' value='Регистрация'></input>
+						</div>
+					</div>
+					<button class='modal-close close-reg' type='button'>
+					</button>
+			</form>
+		</div>
+	</section>
+    <script src='https://code.jquery.com/jquery-3.5.1.slim.min.js'></script>
+	<script src="./slick/slick.min.js"></script>
+	<script src='./script.js'></script>
+	<script src='./sliderforbig.js'></script>  
+</body>
+</html>
