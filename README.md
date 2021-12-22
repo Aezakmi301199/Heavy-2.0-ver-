@@ -13,6 +13,7 @@ http://murrchacho.pythonanywhere.com сайт проекта команды
 Стек технологий (определяется):
 Frontend:
 
+
 HTML&CSS
 Java Script
 Vue(Не использован по итогу)
