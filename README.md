@@ -15,7 +15,7 @@ http://murrchacho.pythonanywhere.com сайт проекта команды
 Frontend:
 * HTML&CSS
 * Java Script
-* Vue
+* Jquery
 * ...
 
 Backend:
